@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Zone'z.store</title>
+
+<!-- ===== SEO META TAGS ===== -->
+<meta name="description" content="Zone'z.store – Buy viral sound packs, meme sounds and digital products at the best price. Instant delivery via email.">
+<meta name="keywords" content="viral sound pack, meme sounds, youtube sounds, instagram reels sounds, digital products store, sound effects pack">
+<meta name="author" content="Zone'z.store">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Zone'z.store – Viral Sound Packs">
+<meta property="og:description" content="Get trending viral sounds & meme sound packs. Perfect for YouTube Shorts, Reels & edits.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zonez.store">
+<meta property="og:image" content="https://zonez.store/preview.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zone'z.store – Viral Sound Packs">
+<meta name="twitter:description" content="Trending viral sounds for creators & editors. Buy now from Zone'z.store">
+<meta name="twitter:image" content="https://zonez.store/preview.png">
+
+<style>
+:root{
+  --bg:#0b0f19;
+  --card:#111827;
+  --text:#e5e7eb;
+  --neon1:#00f0ff;
+  --neon2:#ff00ff;
+  --neon3:#00ff85;
+  --border:#1f2937;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:var(--bg);color:var(--text)}
+.container{max-width:1100px;margin:auto;padding:20px}
+
+/* HEADER */
+header{background:#05070d;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10}
+.nav{display:flex;flex-direction:column;gap:10px}
+.top-links{text-align:center;font-size:.9rem}
+.top-links span{color:var(--neon1)}
+.top-links a{color:var(--neon2);text-decoration:none;margin:0 6px}
+
+.brand-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:12px;
+}
+
+/* LOGO */
+.logo-img{
+  width:48px;
+  height:auto;
+}
+.logo-text{
+  font-size:1.6rem;
+  font-weight:bold;
+  background:linear-gradient(90deg,var(--neon1),var(--neon2),var(--neon3));
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+/* TITLES */
+.section-title{
+  text-align:center;margin:40px 0 20px;font-size:2rem;
+  background:linear-gradient(90deg,var(--neon2),var(--neon1));
+  -webkit-background-clip:text;color:transparent;
+}
+
+/* PRODUCT CARD */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{
+  background:var(--card);
+  border-radius:16px;padding:25px;
+  border:1px solid var(--border);
+  position:relative;transition:.3s;
+}
+.card:hover{transform:translateY(-6px) scale(1.01);box-shadow:0 0 25px rgba(0,240,255,.25)}
+
+.price{color:var(--neon1);font-size:1.3rem;font-weight:bold;margin:10px 0;display:block}
+.btn{
+  width:100%;padding:12px;border:none;border-radius:10px;
+  background:linear-gradient(90deg,var(--neon2),var(--neon1));
+  color:#000;font-weight:bold;cursor:pointer;transition:.3s;
+}
+.btn:hover{filter:brightness(1.2)}
+
+.preview-box{display:flex;gap:10px;margin-top:12px}
+.preview-box a{
+  flex:1;text-align:center;padding:10px;
+  background:#05070d;border-radius:8px;
+  color:var(--neon1);text-decoration:none;
+  border:1px solid var(--neon1);font-weight:bold;
+}
+
+/* FORM */
+.form-container{
+  background:var(--card);border-radius:18px;
+  border:1px solid var(--border);
+  max-width:520px;margin:50px auto;padding:30px;
+}
+.form-group{margin-bottom:15px}
+label{display:block;margin-bottom:6px;font-weight:bold}
+input,textarea{
+  width:100%;padding:12px;border-radius:10px;
+  border:1px solid var(--border);
+  background:#05070d;color:var(--text);
+}
+
+/* FOOTER */
+footer{text-align:center;padding:30px;font-size:.9rem;color:#9ca3af}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="top-links">
+      <span>Follow us on –</span>
+      <a href="https://youtube.com/@aerozoneak" target="_blank">YouTube</a> ||
+      <a href="https://discord.gg/MjVHsHpU" target="_blank">Discord</a> ||
+      <a href="https://www.instagram.com/akxeditz__" target="_blank">Instagram</a>
+    </div>
+
+    <div class="brand-row">
+      <!-- LOGO IMAGE -->
+      <img src="logo.png" alt="Zone'z.store Logo" class="logo-img">
+      <!-- LOGO TEXT -->
+      <div class="logo-text">Zone'z.store</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+<h2 class="section-title">Digital Products</h2>
+
+<div class="grid">
+
+<div class="card">
+  <h3>Viral 50 Sound Pack</h3>
+  <span class="price">₹20 only</span>
+  <p>Viral sound pack including memes.</p>
+
+  <div class="preview-box">
+    <a href="https://drive.google.com/file/d/1YjaTe5HQoiubmk9_mczOpbsxBQiOhqt4/view" target="_blank">💿 Preview</a>
+    <a href="https://drive.google.com/file/d/1LwdH8WtBqixZTG34wNT11S_ukWUI3B9t/view" target="_blank">📀 Preview</a>
+  </div>
+
+  <br>
+  <button class="btn" onclick="order('Viral 50 Sound Pack')">Buy Now</button>
+</div>
+
+</div>
+
+<div class="form-container" id="order-form">
+<h2 style="text-align:center;margin-bottom:20px;">Order Details</h2>
+
+<form action="https://formsubmit.co/ankitk33047@gmail.com" method="POST">
+  <input type="text" name="_honey" style="display:none">
+  <input type="hidden" name="_subject" value="New Order Received!">
+
+  <div class="form-group">
+    <label>Your Name</label>
+    <input type="text" name="name" id="cust_name" required>
+  </div>
+
+  <div class="form-group">
+    <label>Your Email</label>
+    <input type="email" name="email" id="cust_email" required>
+  </div>
+
+  <div class="form-group">
+    <label>Interested Product</label>
+    <textarea name="message" id="cust_msg" rows="4" required></textarea>
+  </div>
+
+  <button type="submit" class="btn">Send Order Request</button>
+</form>
+</div>
+
+<h6 style="text-align:center;margin:20px 0">
+YOU WILL GET ALL DETAILS ON EMAIL  
+AND PAYMENT BY UPI 📧
+</h6>
+
+</div>
+
+<footer>© 2026 Zone'z.store — RGB Edition</footer>
+
+<script>
+function order(pName){
+  alert("Please fill your info below to buy " + pName);
+  document.getElementById('cust_msg').value =
+    "I want to buy: " + pName + "\nPlease send me the payment details.";
+  document.getElementById('order-form')
+    .scrollIntoView({behavior:'smooth'});
+  setTimeout(()=>{
+    document.getElementById('cust_name').focus();
+  },800);
+}
+</script>
+
+</body>
+</html>
